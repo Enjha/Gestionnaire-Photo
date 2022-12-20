@@ -1,0 +1,99 @@
+#Widget{
+    background-color: rgb(223, 230, 233);
+}
+
+QListWidget#listGalerie{
+border: none;
+    background-color: white;
+}
+
+#line{
+    border: 0.5px solid rgb(178, 190, 195);
+    background-color: rgb(178, 190, 195);
+}
+
+QPushButton {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(83, 82, 237), stop:1 rgb(55, 66, 250));
+}
+
+QPushButton#addFileButton{
+    margin-left: 5px;
+}
+
+QPushButton#star1,#star2,#star3,#star4,#star5 {
+    border: none;
+    background: transparent;
+}
+
+QPushButton:hover {
+    background-position: right center; /* change the direction of the change here */
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(55, 66, 250), stop:1 rgb(83, 82, 237));
+}
+
+QPushButton:pressed {
+    background-color: rgb(87, 88, 187);
+}
+
+QScrollBar:vertical {
+   border: none;
+   background: white;
+   width: 15px;
+   margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+   background: rgb(83, 82, 237);
+   min-height: 0px;
+   border-radius: 7px;
+}
+
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background: rgb(32, 47, 130);
+    border-radius:7px;
+    min-height:20;
+}
+
+QLineEdit#searchBar{
+    border: 2px solid rgb(206, 214, 224);
+    border-radius: 12px;
+    color: black;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: rgb(206, 214, 224);
+}
+
+QLineEdit#searchBar:hover{
+    border: 2px solid rgb(131, 149, 167);
+}
+
+QLineEdit#searchBar:focus{
+    border: 2px solid rgb(83, 82, 237);
+}
+QLabel#remark{
+    font: italic 10pt "Segoe UI";
+}
+
+QTextEdit {
+    border: 0.5px solid black;
+    background-color: rgb(223, 230, 233);
+    padding-bottom: 5px;
+}
+
+QTextEdit:hover{
+    border: 0px solid white;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(131, 149, 167);
+}
+
+QTextEdit:focus {
+    border: 0px solid white;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(83, 82, 237);
+}

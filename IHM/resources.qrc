@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resources/full_star.png</file>
+        <file>resources/void_star.png</file>
+        <file>resources/crop.png</file>
+        <file>resources/file.png</file>
+        <file>resources/remove.png</file>
+        <file>resources/resize.png</file>
+        <file>resources/save.png</file>
+        <file>resources/remark.png</file>
+        <file>resources/score.png</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>resources/stylesheet.qss</file>
+    </qresource>
+    <qresource prefix="/saves">
+        <file>resources/save.txt</file>
+    </qresource>
+</RCC>
